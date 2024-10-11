@@ -1,0 +1,174 @@
+[
+  {
+    "@id": "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#BiologicalContext",
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasBiologicalOrganizationLevel": [
+      {
+        "@id": "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#Tissue"
+      }
+    ],
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasOrganTerm": [
+      {
+        "@value": "serum"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#Components",
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasAction": [
+      {
+        "@id": "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#Decreased"
+      }
+    ],
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasObject": [
+      {
+        "@value": "thyroxine"
+      }
+    ],
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasProcess": [
+      {
+        "@value": "abnormal circulating thyroxine level"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#IncludedInAOP",
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasAOPName": [
+      {
+        "@value": "TPO Inhibition and Altered Neurodevelopment"
+      }
+    ],
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasAuthorStatus": [
+      {
+        "@value": "Open for citation & comment"
+      }
+    ],
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasOECDStatus": [
+      {
+        "@value": "WPHA/WNT Endorsed"
+      }
+    ],
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasPointOfContact": [
+      {
+        "@value": "Kevin Crofton"
+      }
+    ],
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasRoleInAOP": [
+      {
+        "@value": "KeyEvent"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#KeyEvent",
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasApplicabilityDomain": [
+      {
+        "@value": "Taxonomic: This KE is plausibly applicable across vertebrates and the overall evidence supporting taxonomic applicability is strong. THs are evolutionarily conserved molecules present in all vertebrate species (Hulbert, 2000; Yen, 2001). Moreover, their crucial role in zebrafish development, embryo-to-larval transition and larval-to-juvenile transition (Thienpont et al., 2011; Liu and Chan, 2002), and amphibian and lamprey metamorphoses is well established (Manzon and Youson, 1997; Yaoita and Brown, 1990; Furlow and Neff, 2006). Their role as environmental messenger via exogenous routes in echinoderms confirms the hypothesis that these molecules are widely distributed among the living organisms (Heyland and Hodin, 2004). However, the role of THs in the different species depends on the expression and function of specific proteins (e.g receptors or enzymes) under TH control and may vary across species and tissues. As such, extrapolation regarding TH action across species and developmental stages should be done with caution."
+      }
+    ],
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasDescription": [
+      {
+        "@value": "All iodothyronines are derived from the modification of tyrosine molecules (Taurog, 2000). There are two biologically active thyroid hormones (THs) in serum, triiodothyronine (T3) and T4, and a few less active iodothyronines, reverse T3 (rT3),  and 3,3'-Diiodothyronine (3,5-T2). T4 is the predominant TH in circulation, comprising approximately 80% of the TH excreted from the thyroid gland in mammals and is the pool from which the majority of T3 in serum is generated (Zoeller et al., 2007). As such, serum T4 changes usually precede changes in other serum THs. Decreased thyroxine (T4) in serum results from one or more MIEs upstream and is considered a key biomarker of altered TH homeostasis (DeVito et al., 1999)."
+      }
+    ],
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasID": [
+      {
+        "@value": "281"
+      }
+    ],
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasMeasurement&DetectionTechniques": [
+      {
+        "@value": "Serum T3 and T4 can be measured as free (unbound) or total (bound + unbound). Free hormone concentrations are clinically considered more direct indicators of T4 and T3 activities in the body, but in animal studies, total T3 and T4 are typically measured. Historically, the most widely used method in toxicology is the radioimmunoassay (RIA). The method is routinely used in rodent endocrine and toxicity studies. The ELISA method is commonly used as a human clinical test method. Analytical determination of iodothyronines (T3, T4, rT3, T2) and their conjugates, through methods employing HPLC, liquid chromatography, immuno luminescence, and mass spectrometry are less common, but are becoming increasingly available (Hornung et al., 2015; DeVito et al., 1999; Baret and Fert, 1989; Spencer, 2013; Samanidou V.F et al., 2000; Rathmann D. et al., 2015 ). In fish early life stages most evidence for the ontogeny of thyroid hormone synthesis comes from measurements of whole body thyroid hormone levels using LC-MS techniques (Hornung et al., 2015) which are increasingly used to accurately quantify whole body thyroid hormone levels as a proxy for serum thyroid hormone levels (Nelson et al., 2016; Stinckens et al., 2016; Stinckens et al., 2020). It is important to note that thyroid hormones concentrations can be influenced by a number of intrinsic and extrinsic factors (e.g., circadian rhythms, stress, food intake, housing, noise) (see for example, Döhler et al., 1979)."
+      }
+    ],
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasShortName": [
+      {
+        "@value": "T4 in serum, Decreased"
+      }
+    ],
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasTitle": [
+      {
+        "@value": "Risk assessment for benefits analysis: framework for analysis of a thyroid-disrupting chemical"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#LifeStages",
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasEvidence": [
+      {
+        "@id": "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#High"
+      }
+    ],
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasLifeStage": [
+      {
+        "@value": "All life stages"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#Overview",
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasIncludedInAOP": [
+      {
+        "@id": "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#IncludedInAOP"
+      }
+    ],
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasLifeStages": [
+      {
+        "@id": "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#LifeStages"
+      }
+    ],
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasSexApplicability": [
+      {
+        "@id": "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#SexApplicability"
+      }
+    ],
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasTaxonomicApplicability": [
+      {
+        "@id": "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#TaxonomicApplicability"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#References",
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasDOI": [
+      {
+        "@value": "10.1080/15287390590912153"
+      }
+    ],
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasTitle": [
+      {
+        "@value": "Risk assessment for benefits analysis: framework for analysis of a thyroid-disrupting chemical"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#SexApplicability",
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasEvidence": [
+      {
+        "@id": "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#High"
+      }
+    ],
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasSex": [
+      {
+        "@id": "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#Male"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#TaxonomicApplicability",
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasEvidence": [
+      {
+        "@id": "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#Moderate"
+      }
+    ],
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasScientificTerm": [
+      {
+        "@value": "Gallus gallus"
+      }
+    ],
+    "https://w3id.org/np/RALUzHtS1E_Mba_zwMhhENjZgd23vM0IivF-tUBC633dI#hasTerm": [
+      {
+        "@value": "chicken"
+      }
+    ]
+  }
+]
