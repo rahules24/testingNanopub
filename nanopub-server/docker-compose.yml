@@ -1,0 +1,28 @@
+version: '2'
+services:
+  nanopub:
+    build: .
+    image: nanopub/server
+    restart: unless-stopped
+    depends_on:
+      - db
+    environment:
+      - NPS_MONGODB_HOST=db
+      - NPS_COLLECT_NANOPUBS_ENABLED=false  # nanopubs are collected from other servers (needs about 60GB of disk space, or possibly more)
+      - NPS_PUBLIC_URL=http://myserver.com/path/  # replace this with the URL where this server is publicly accessible; needs to end with /
+      - NPS_ADMIN=Rahul <rahul.es2024@gmail.com>  # you can add admin info here, e.g. Tobias Kuhn <kuhntobias@gmail.com> (optional)
+      - NPS_LOAD_DIR=/data/dropbox/
+    ports:
+      - 8080:8080
+    volumes:
+      - ./load:/data/dropbox/  # specify the host directory from which files of nanopublications are automatically loaded
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+  db:
+    image: nanopub/mongo
+    #image: mongo
+    restart: unless-stopped
+    volumes:
+      - ./data/mongodb:/data/db  # specify the host directory for the database here

@@ -36,7 +36,7 @@ my_pubinfo.add((subject, NTEMPLATE.wasCreatedFromTemplate, URIRef("https://w3id.
 my_pubinfo.add((subject, NTEMPLATE.wasCreatedFromProvenanceTemplate, URIRef("https://w3id.org/np/RAp_-kdLEx25ZkR8QSG2MZpV5ajv8W2xM0TLoD7Wc76gg")))
 
 np_conf = NanopubConf(
-    use_test_server=True,
+    use_server='http://localhost:8080',  # Specify your local server URL
     profile=load_profile(),  # Loads the user profile
     add_prov_generated_time=True,
     attribute_publication_to_profile=True,
